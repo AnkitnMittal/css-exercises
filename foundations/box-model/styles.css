@@ -1,0 +1,46 @@
+/*
+CSS Reset
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-one {
+    background-color: #EB5757;
+
+    height: 100px;
+    width: 100px;
+
+    padding: 10px;
+    border: 20px solid #9B51E0;
+    margin: 100px;
+
+    /*
+    box-sizing converts the height and the width of the variables to
+    include the padding and the border size while calculation which
+    inturn shrinks down the content.
+
+        Generally, always added in the universal selector to
+        make formatting layout easier
+    */
+    box-sizing: border-box;
+}
+
+.box-two {
+    background-color: #2D9CDB;
+
+    height: 100px;
+    width: 100px;
+
+    padding: 10px;
+    border: 20px solid #9B51E0;
+
+    /*
+    Margin Collapsing
+        The margin between any 2 adjacents boxes is the 
+        same as the largest padding out of the boxes
+    */
+    margin: 100px;
+}
