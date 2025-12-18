@@ -1,0 +1,53 @@
+body {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+/* Default Formatting Styles */
+.parent {
+    background-color: rgb(0, 157, 255);
+    padding: 1rem;
+}
+
+.child-one {
+    background-color: rgb(59, 236, 94);
+    padding: 0.5rem;
+}
+
+.child-two {
+    background-color: lightcoral;
+    padding: 0.5rem;
+}
+
+.child-three {
+    background-color: pink;
+    padding: 0.5rem;
+}
+
+/* Positioning Formatting */
+.parent {
+    position: relative;
+    height: 200vh;
+    margin-top: 5rem;
+}
+
+/* Absolute Positioning relative to Parent Container*/
+.child-one {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+/* Fixed Positioning relative to HTML Container*/
+.child-two {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%
+}
+
+/* Fixed Positioning relative to set top value*/
+.child-three {
+    position: sticky;
+    top: 0;
+}
