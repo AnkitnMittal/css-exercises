@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 100px;
+
+    grid-template-columns: 50px 50px;
+
+    /* Default size for any Explicit Tracks*/
+    grid-template-rows: 50px 50px;
+
+    /* Default size for any Implicit Tracks*/
+    grid-auto-rows: 100px;
+
+}
+
+.container div {
+    border: 1px solid blue;
+}
